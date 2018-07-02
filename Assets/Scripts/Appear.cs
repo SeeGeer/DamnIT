@@ -5,9 +5,8 @@ using UnityEngine;
 public class Appear : MonoBehaviour {
 
     public GameObject[] results;
-    public GameObject closeTicketButton;
-    public GameObject choiceSet;
-    public bool appearCloseFunction;
+
+
     public void OnMakeChoice()
     {
         foreach (GameObject result in results)
@@ -31,11 +30,7 @@ public class Appear : MonoBehaviour {
         }
 
 
-        if (appearCloseFunction)
-        {
-            closeTicketButton.SetActive(true);
-            choiceSet.SetActive(false);
-        }
+
 
 
     }
