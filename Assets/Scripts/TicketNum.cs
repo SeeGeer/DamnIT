@@ -9,16 +9,8 @@ public class TicketNum : MonoBehaviour {
     public void AddTicketNum()
     {
         DBManager.ticketNum += 1;
-        ticketDisplay.text = "Finished Ticket: " + DBManager.ticketNum;
+        ticketDisplay.text = "" + DBManager.ticketNum;
     }
 
-    public void AddCorrectNum()
-    {
-        DBManager.correctTicketNum += 1;
-    }
 
-    public void AddInCorrectNum()
-    {
-        DBManager.incorrectTicketNum += 1;
-    }
 }

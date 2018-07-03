@@ -19,7 +19,7 @@ public class Game : MonoBehaviour
         {
             //UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }
-        playerDisplay.text = "Employee: " + DBManager.username;
+        playerDisplay.text = DBManager.username;
 
 
 
