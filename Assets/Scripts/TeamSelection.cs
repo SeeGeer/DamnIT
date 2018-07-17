@@ -29,7 +29,8 @@ public class TeamSelection : MonoBehaviour {
         form.AddField("teamId", teamId);
         form.AddField("username", DBManager.username);
 
-        WWW www = new WWW("http://localhost/sqlconnect/teamselection.php", form);
+        //WWW www = new WWW("http://localhost/sqlconnect/teamselection.php", form);
+        WWW www = new WWW("sijier.000webhostapp.com/teamselection.php", form);
         yield return www;
         if (www.text == "0")
         {

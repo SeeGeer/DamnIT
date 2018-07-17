@@ -36,7 +36,8 @@ public class NextLevel : MonoBehaviour {
         form.AddField("score", DBManager.score);
         form.AddField("day", DBManager.day);
 
-        WWW www = new WWW("http://localhost/sqlconnect/savedata.php", form);
+        //WWW www = new WWW("http://localhost/sqlconnect/savedata.php", form);
+        WWW www = new WWW("sijier.000webhostapp.com/savedata.php", form);
 
         yield return www;
 

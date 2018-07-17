@@ -20,7 +20,9 @@ public class LogIn : MonoBehaviour {
         WWWForm form = new WWWForm();
         form.AddField("username", nameField.text);
         form.AddField("password", passwordField.text);
-        WWW www = new WWW("http://localhost/sqlconnect/login.php", form);
+        //WWW www = new WWW("http://localhost/sqlconnect/login.php", form);
+        WWW www = new WWW("sijier.000webhostapp.com/login.php", form);
+        
         yield return www;
 
         if(www.text[0] == '0')
