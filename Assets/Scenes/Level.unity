@@ -879,7 +879,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 424724520}
   m_HandleRect: {fileID: 424724519}
   m_Direction: 2
-  m_Value: 0.9999144
+  m_Value: 0.99999994
   m_Size: 0.59229213
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2322,7 +2322,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.7, y: -145.7}
+  m_AnchoredPosition: {x: -9.7, y: -145.725}
   m_SizeDelta: {x: 849.1, y: 1429.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &193051804
@@ -2362,17 +2362,18 @@ MonoBehaviour:
     network from security threats and make sure that we use the most up-to-date software.
     We nearly went out of business when the previous employee did not install needed
     software updates and then clicked on a virus that a hacker had sent us! I want
-    you to save these rules for deciding whether to install a software update:\r\nThat
-    the update message uses correct grammar and spelling.\r\nThat the update message
-    is officially signed, so that it is obvious who is issuing the update.\r\nThat
-    the update message is not a pop-up window inside the web browser.\r\nThat there
-    is a button or web link to learn more about the reason for the update.\r\nThat
-    the update lists what it includes, such as that it will improve security or fix
-    a bug that reduces security.\r\nThat the update message does not ask you to input
-    your personal or sensitive account data, such as a network ID and password or
-    a Social Security number.\r\n\nAlso, your are now in a team of 7, and here are
-    your teammates:\n\nLola Loggins,\nAli Algo-Rithim, \nPriya Privathy, \nAudra Auther
-    Iyes, \nSammy Sakuritiea.\n\nGot it? Good luck, and welcome to the team!\r"
+    you to save these rules for deciding whether to install a software update:\r\n\n1.
+    That the update message uses correct grammar and spelling.\r\n2. That the update
+    message is officially signed, so that it is obvious    \n\twho is issuing the
+    update.\r\n3. That the update message is not a pop-up window inside the web \n\tbrowser.\r\n4.
+    That there is a button or web link to learn more about the \n\treason for the
+    update.\r\n5. That the update lists what it includes, such as that it will improve
+    \n\tsecurity or fix a bug that reduces security.\r\n6. That the update message
+    does not ask you to input your \n\tpersonal or sensitive account data, such as
+    a network \n\tID and password or a Social Security number.\r\n\nAlso, your are
+    now in a team of 7, and here are your teammates:\n\nLola Loggins,\nAli Algo-Rithim,
+    \nPriya Privathy, \nAudra Auther Iyes, \nSammy Sakuritiea.\n\nand me.\n\nGot it?
+    Good luck, and welcome to the team!\r"
 --- !u!222 &193051805
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4505,8 +4506,8 @@ RectTransform:
   m_Father: {fileID: 1442394760}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.40767297}
-  m_AnchorMax: {x: 1, y: 0.9999651}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -13078,7 +13079,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1067934330
 RectTransform:
   m_ObjectHideFlags: 0
